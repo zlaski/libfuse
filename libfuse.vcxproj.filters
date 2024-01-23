@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{38163f4b-19bb-438a-8063-6b447014104f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\modules">
+      <UniqueIdentifier>{dc99c1f6-0ff9-49fd-b73c-03a8eeb6b88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{a30d5bb1-1668-458b-87dd-f0434e435120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{9a473db7-743c-475d-b088-e49ee3ba6324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\doc">
+      <UniqueIdentifier>{ab8f7904-4ae3-4d3c-bf09-4d796e9696bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\buffer.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\compat.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cuse_lowlevel.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_log.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_loop.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_loop_mt.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_lowlevel.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_opt.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fuse_signals.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\helper.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mount.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mount_bsd.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mount_util.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\modules\iconv.c">
+      <Filter>Source Files\lib\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\modules\subdir.c">
+      <Filter>Source Files\lib\modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cuse_lowlevel.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_common.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_kernel.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_log.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_lowlevel.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_mount_compat.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fuse_opt.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fuse_i.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fuse_misc.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\mount_util.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="make_release_tarball.sh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meson.build">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SECURITY.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="doc\Doxyfile">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\fast17-vangoor.pdf">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\fusermount3.1">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\mainpage.dox">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\meson.build">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\mount.fuse3.8">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+    <None Include="doc\README.NFS">
+      <Filter>Resource Files\doc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="meson_options.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tsan_suppressions.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="doc\kernel.txt">
+      <Filter>Resource Files\doc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
